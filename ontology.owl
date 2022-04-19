@@ -1,0 +1,3312 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/lh2u21/ontologies/2022/4/films_and_television"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/lh2u21/ontologies/2022/4/films_and_television">
+    <Prefix name="" IRI="http://www.semanticweb.org/lh2u21/ontologies/2022/4/films_and_television"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>Films and television show Ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>Liusong He &lt;lh2u21@soton.ac.uk&gt;</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BBFC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BothActorDirector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Episode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Film"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MPAA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#People"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Season"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TVSeries"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCountry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDirector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEpisode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSeason"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEndDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasReleaseYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRunningTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStartDate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adam_Driver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Afghanistan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Akiva_Goldsman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AkrotiriAndDhekelia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Albania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Algeria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alison_Pill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AmericanSamoa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AndamanAndNicobarIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Andorra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Angola"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anguilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antarctica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anthony_Daniels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AntiguaAndBarbuda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Argentina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Armenia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aruba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArunachalPradesh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AscensionSaintHelenaAndTristanDaCunha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AshmoreAndCartierIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Australia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Austria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Azerbaijan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BBFC_12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BBFC_12A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BBFC_15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BBFC_18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BBFC_PG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BBFC_R18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BBFC_U"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bahamas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bahrain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BakerIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bangladesh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barbados"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BassasDaIndia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Belarus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Belgium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Belize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Benin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bermuda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bhutan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BirdIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BonaireSintEustatiusAndSaba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BosniaAndHerzegovina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Botswana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BouvetIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brazil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BritishIndianOceanTerritory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BritishVirginIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BruneiDarussalam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bulgaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BurkinaFaso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Burundi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaboVerde"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cambodia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cameroon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Canada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CanaryIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CantonAndEnderburyIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carrie_Fisher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaymanIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CentralAfricanRepublic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChagosArchipelago"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChannelIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#China"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChinaHongKongSAR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChinaMacaoSAR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChristmasIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ClippertonIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colombia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comoros"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Congo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CookIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CoralSeaIslandsTerritory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CostaRica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Croatia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cuba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Curaçao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cyprus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Czechia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Daisy_Ridley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DemocraticRepublicOfTheCongo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Denmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DiegoGarcia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Djibouti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Domhnall_Gleeson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dominica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DominicanRepublic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ecuador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Egypt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ElSalvador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EquatorialGuinea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eritrea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Estonia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eswatini"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ethiopia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EuropaIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EuropeanUnion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FaroeIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fiji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Finland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#France"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FrenchGuiana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FrenchPolynesia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FrenchSouthernTerritories"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gabon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gambia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GazaStrip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Georgia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Germany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ghana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gibraltar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GloriosoIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GolanHeights"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GreaterAntilles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Greece"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Greenland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grenada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guadeloupe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guatemala"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guernsey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guinea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guinea-Bissau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guyana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Haiti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Harry_Treadaway"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HeardAndMcDonaldIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HolySee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Honduras"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HowlandIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hungary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iceland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IlemiTriangle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#India"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indonesia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iraq"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ireland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Isa_Briones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IsleOfMan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Israel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Italy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#J_J_Abrams"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jamaica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JammuAndKashmir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Japan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JarvisIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jersey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#John_Boyega"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JohnstonAtoll"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JohnstonIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joonas_Suotamo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jordan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JuanDeNovaIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kazakhstan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kelly_Marie_Tran"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kenya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KerguelenIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Keri_Russell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KingmanReef"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kiribati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kosovo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KurilIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kuwait"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kyrgyzstan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Latvia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lebanon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lesotho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LesserAntilles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LiancourtRocks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liberia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Libya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liechtenstein"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lithuania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luxembourg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MPAA_G"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MPAA_NC-17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MPAA_PG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MPAA_PG-13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MPAA_R"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Madagascar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MadeiraIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Malawi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Malaysia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maldives"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Malta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MarionIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mark_Hamill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MarshallIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Martinique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mauritania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mauritius"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mayotte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mexico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Michelle_Hurd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MidwayIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monaco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mongolia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Montenegro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Montserrat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Morocco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mozambique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Myanmar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nagorno-KarabakhRegionOfAzerbaijan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Namibia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Naomi_Ackie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nauru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NavassaIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nepal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Netherlands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NeutralZone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NewCaledonia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NewZealand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nicaragua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Niger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nigeria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Niue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NorfolkIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NorthMacedonia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NorthernMarianaIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Norway"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OccupiedPalestinianTerritory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oscar_Isaac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pakistan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Palau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Palestine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PalmyraAtoll"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Panama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PanamaFormerCanalZone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PapuaNewGuinea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ParacelIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paraguay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patrick_Stewart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PersianGulf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Philippines"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pitcairn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Poland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Portugal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrinceEdwardIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PuertoRico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Qatar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RepublicOfKorea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RepublicOfMoldova"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Richard_E._Grant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Romania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RossDependency"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RussianFederation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rwanda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Réunion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SaintBarthélemy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SaintKittsAndNevis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SaintLucia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SaintPierreAndMiquelon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SaintVincentAndTheGrenadines"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samoa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SanMarino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Santiago_Cabrera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SaoTomeAndPrincipe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SaudiArabia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ScarboroughReef"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Senegal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SenkakuIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Serbia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Seychelles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SierraLeone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Singapore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slovakia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slovenia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SolomonIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Somalia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SouthAfrica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SouthGeorgiaAndTheSouthSandwichIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SouthSudan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpratlyIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SriLanka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sudan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suriname"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SvalbardAndJanMayenIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sweden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Switzerland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SyrianArabRepublic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TaiwanProvinceOfChina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tajikistan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thailand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Timor-Leste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Togo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tokelau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tonga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TrinidadAndTobago"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TromelinIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TrustTerritoryOfThePacificIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tunisia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Turkey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Turkmenistan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TurksAndCaicosIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tuvalu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uganda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ukraine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnitedArabEmirates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnitedKingdomOfGreatBritainAndNorthernIreland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnitedRepublicOfTanzania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnitedRepublicOfTanzaniaZanzibar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnitedStatesMinorOutlyingIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnitedStatesOfAmerica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnitedStatesVirginIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uruguay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uzbekistan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vanuatu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VietNam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WakeIsland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WallisAndFutunaIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WestBank"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WestPapua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WesternSahara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yemen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zambia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zimbabwe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#comedy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#drama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#romance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scienceFiction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ÅlandIslands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bolivia(PlurinationalStateof)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cocos(Keeling)Islands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Côted&apos;Ivoire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DemocraticPeople&apos;sRepublicOfKorea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FalklandIslands(Malvinas)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hala&apos;ibTriangle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iran(IslamicRepublicof)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LaoPeople&apos;sDemocraticRepublic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lupita_Nyong&apos;o"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ma&apos;tanal-Sarra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Micronesia(FederatedStatesof)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saint-Martin(Frenchpart)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SintMaarten(Dutchpart)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Star_Trek:_Picard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Star_Trek:_Picard_(season_1)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Star_Trek:_Picard_(season_2)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Venezuela(BolivarianRepublicof)"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#BothActorDirector"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Actor"/>
+            <Class IRI="#Director"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Genre"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#comedy"/>
+            <NamedIndividual IRI="#crime"/>
+            <NamedIndividual IRI="#drama"/>
+            <NamedIndividual IRI="#romance"/>
+            <NamedIndividual IRI="#scienceFiction"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Actor"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BBFC"/>
+        <Class IRI="#Rating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCountry"/>
+            <Class IRI="#Country"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Director"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Film"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasActor"/>
+            <Class IRI="#Actor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Film"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCountry"/>
+            <Class IRI="#Country"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Film"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDirector"/>
+            <Class IRI="#Director"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Film"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Genre"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Film"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasRunningTime"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MPAA"/>
+        <Class IRI="#Rating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Season"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasEpisode"/>
+                <Class IRI="#Episode"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasEpisode"/>
+                <Class IRI="#Episode"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Season"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasActor"/>
+            <Class IRI="#Actor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Season"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCountry"/>
+            <Class IRI="#Country"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Season"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDirector"/>
+            <Class IRI="#Director"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Season"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasRunningTime"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TVSeries"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSeason"/>
+                <Class IRI="#Season"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasSeason"/>
+                <Class IRI="#Season"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#BBFC"/>
+        <Class IRI="#MPAA"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Country"/>
+        <Class IRI="#Episode"/>
+        <Class IRI="#Film"/>
+        <Class IRI="#Genre"/>
+        <Class IRI="#People"/>
+        <Class IRI="#Rating"/>
+        <Class IRI="#Season"/>
+        <Class IRI="#TVSeries"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Adam_Driver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Afghanistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Director"/>
+        <NamedIndividual IRI="#Akiva_Goldsman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#AkrotiriAndDhekelia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Albania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Algeria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Alison_Pill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#AmericanSamoa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#AndamanAndNicobarIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Andorra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Angola"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Anguilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Antarctica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Anthony_Daniels"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#AntiguaAndBarbuda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Argentina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Armenia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Aruba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#ArunachalPradesh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#AscensionSaintHelenaAndTristanDaCunha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#AshmoreAndCartierIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Australia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Austria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Azerbaijan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BBFC"/>
+        <NamedIndividual IRI="#BBFC_12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BBFC"/>
+        <NamedIndividual IRI="#BBFC_12A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BBFC"/>
+        <NamedIndividual IRI="#BBFC_15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BBFC"/>
+        <NamedIndividual IRI="#BBFC_18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BBFC"/>
+        <NamedIndividual IRI="#BBFC_PG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BBFC"/>
+        <NamedIndividual IRI="#BBFC_R18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BBFC"/>
+        <NamedIndividual IRI="#BBFC_U"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Bahamas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Bahrain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#BakerIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Bangladesh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Barbados"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#BassasDaIndia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Belarus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Belgium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Belize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Benin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Bermuda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Bhutan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#BirdIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#BonaireSintEustatiusAndSaba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#BosniaAndHerzegovina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Botswana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#BouvetIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Brazil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#BritishIndianOceanTerritory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#BritishVirginIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#BruneiDarussalam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Bulgaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#BurkinaFaso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Burundi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#CaboVerde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Cambodia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Cameroon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Canada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#CanaryIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#CantonAndEnderburyIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Carrie_Fisher"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#CaymanIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#CentralAfricanRepublic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Chad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#ChagosArchipelago"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#ChannelIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Chile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#ChinaHongKongSAR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#ChinaMacaoSAR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#ChristmasIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#ClippertonIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Colombia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Comoros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Congo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#CookIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#CoralSeaIslandsTerritory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#CostaRica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Croatia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Cuba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Curaçao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Cyprus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Czechia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Daisy_Ridley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#DemocraticRepublicOfTheCongo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Denmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#DiegoGarcia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Djibouti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Domhnall_Gleeson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Dominica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#DominicanRepublic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Ecuador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Egypt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#ElSalvador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#EquatorialGuinea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Eritrea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Estonia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Eswatini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Ethiopia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#EuropaIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#EuropeanUnion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#FaroeIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Fiji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Finland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#France"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#FrenchGuiana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#FrenchPolynesia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#FrenchSouthernTerritories"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Gabon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Gambia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#GazaStrip"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Georgia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Ghana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Gibraltar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#GloriosoIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#GolanHeights"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#GreaterAntilles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Greece"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Greenland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Grenada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Guadeloupe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Guam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Guatemala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Guernsey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Guinea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Guinea-Bissau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Guyana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Haiti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Harry_Treadaway"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#HeardAndMcDonaldIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#HolySee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Honduras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#HowlandIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Hungary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Iceland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#IlemiTriangle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Indonesia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Iraq"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Ireland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Isa_Briones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#IsleOfMan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Israel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Director"/>
+        <NamedIndividual IRI="#J_J_Abrams"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Jamaica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#JammuAndKashmir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#JarvisIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Jersey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#John_Boyega"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#JohnstonAtoll"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#JohnstonIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Joonas_Suotamo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Jordan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#JuanDeNovaIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Kazakhstan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Kelly_Marie_Tran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Kenya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#KerguelenIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Keri_Russell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#KingmanReef"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Kiribati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Kosovo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#KurilIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Kuwait"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Kyrgyzstan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Latvia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Lebanon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Lesotho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#LesserAntilles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#LiancourtRocks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Liberia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Libya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Liechtenstein"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Lithuania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Luxembourg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MPAA"/>
+        <NamedIndividual IRI="#MPAA_G"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MPAA"/>
+        <NamedIndividual IRI="#MPAA_NC-17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MPAA"/>
+        <NamedIndividual IRI="#MPAA_PG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MPAA"/>
+        <NamedIndividual IRI="#MPAA_PG-13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MPAA"/>
+        <NamedIndividual IRI="#MPAA_R"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Madagascar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#MadeiraIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Malawi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Malaysia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Maldives"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Mali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Malta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#MarionIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Mark_Hamill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#MarshallIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Martinique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Mauritania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Mauritius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Mayotte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Mexico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Michelle_Hurd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#MidwayIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Monaco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Mongolia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Montenegro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Montserrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Morocco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Mozambique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Myanmar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Nagorno-KarabakhRegionOfAzerbaijan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Namibia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Naomi_Ackie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Nauru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#NavassaIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Nepal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Netherlands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#NeutralZone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#NewCaledonia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#NewZealand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Nicaragua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Niger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Nigeria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Niue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#NorfolkIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#NorthMacedonia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#NorthernMarianaIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Norway"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#OccupiedPalestinianTerritory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Oman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Oscar_Isaac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Pakistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Palau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Palestine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#PalmyraAtoll"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Panama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#PanamaFormerCanalZone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#PapuaNewGuinea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#ParacelIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Paraguay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Patrick_Stewart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#PersianGulf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Peru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Philippines"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Pitcairn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Poland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Portugal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#PrinceEdwardIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#PuertoRico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Qatar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#RepublicOfKorea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#RepublicOfMoldova"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Richard_E._Grant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Romania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#RossDependency"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#RussianFederation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Rwanda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Réunion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SaintBarthélemy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SaintKittsAndNevis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SaintLucia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SaintPierreAndMiquelon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SaintVincentAndTheGrenadines"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Samoa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SanMarino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Santiago_Cabrera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SaoTomeAndPrincipe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SaudiArabia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#ScarboroughReef"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Senegal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SenkakuIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Serbia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Seychelles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SierraLeone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Singapore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Slovakia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Slovenia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SolomonIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Somalia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SouthAfrica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SouthGeorgiaAndTheSouthSandwichIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SouthSudan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SpratlyIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SriLanka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Film"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Sudan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Suriname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SvalbardAndJanMayenIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Sweden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Switzerland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SyrianArabRepublic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#TaiwanProvinceOfChina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Tajikistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Thailand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Timor-Leste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Togo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Tokelau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Tonga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#TrinidadAndTobago"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#TromelinIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#TrustTerritoryOfThePacificIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Tunisia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Turkey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Turkmenistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#TurksAndCaicosIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Tuvalu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Uganda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Ukraine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#UnitedArabEmirates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#UnitedKingdomOfGreatBritainAndNorthernIreland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#UnitedRepublicOfTanzania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#UnitedRepublicOfTanzaniaZanzibar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#UnitedStatesMinorOutlyingIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#UnitedStatesOfAmerica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#UnitedStatesVirginIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Uruguay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Uzbekistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Vanuatu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#VietNam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#WakeIsland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#WallisAndFutunaIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#WestBank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#WestPapua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#WesternSahara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Yemen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Zambia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Zimbabwe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#comedy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#crime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#drama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#romance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#scienceFiction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#ÅlandIslands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Bolivia(PlurinationalStateof)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Cocos(Keeling)Islands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Côted&apos;Ivoire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#DemocraticPeople&apos;sRepublicOfKorea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#FalklandIslands(Malvinas)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Hala&apos;ibTriangle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Iran(IslamicRepublicof)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#LaoPeople&apos;sDemocraticRepublic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Lupita_Nyong&apos;o"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Ma&apos;tanal-Sarra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Micronesia(FederatedStatesof)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Saint-Martin(Frenchpart)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#SintMaarten(Dutchpart)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TVSeries"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Season"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard_(season_1)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Season"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard_(season_2)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Venezuela(BolivarianRepublicof)"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Afghanistan"/>
+        <NamedIndividual IRI="#AkrotiriAndDhekelia"/>
+        <NamedIndividual IRI="#Albania"/>
+        <NamedIndividual IRI="#Algeria"/>
+        <NamedIndividual IRI="#AmericanSamoa"/>
+        <NamedIndividual IRI="#AndamanAndNicobarIslands"/>
+        <NamedIndividual IRI="#Andorra"/>
+        <NamedIndividual IRI="#Angola"/>
+        <NamedIndividual IRI="#Anguilla"/>
+        <NamedIndividual IRI="#Antarctica"/>
+        <NamedIndividual IRI="#AntiguaAndBarbuda"/>
+        <NamedIndividual IRI="#Argentina"/>
+        <NamedIndividual IRI="#Armenia"/>
+        <NamedIndividual IRI="#Aruba"/>
+        <NamedIndividual IRI="#ArunachalPradesh"/>
+        <NamedIndividual IRI="#AscensionSaintHelenaAndTristanDaCunha"/>
+        <NamedIndividual IRI="#AshmoreAndCartierIslands"/>
+        <NamedIndividual IRI="#Australia"/>
+        <NamedIndividual IRI="#Austria"/>
+        <NamedIndividual IRI="#Azerbaijan"/>
+        <NamedIndividual IRI="#BBFC_12"/>
+        <NamedIndividual IRI="#BBFC_12A"/>
+        <NamedIndividual IRI="#BBFC_15"/>
+        <NamedIndividual IRI="#BBFC_18"/>
+        <NamedIndividual IRI="#BBFC_PG"/>
+        <NamedIndividual IRI="#BBFC_R18"/>
+        <NamedIndividual IRI="#BBFC_U"/>
+        <NamedIndividual IRI="#Bahamas"/>
+        <NamedIndividual IRI="#Bahrain"/>
+        <NamedIndividual IRI="#BakerIsland"/>
+        <NamedIndividual IRI="#Bangladesh"/>
+        <NamedIndividual IRI="#Barbados"/>
+        <NamedIndividual IRI="#BassasDaIndia"/>
+        <NamedIndividual IRI="#Belarus"/>
+        <NamedIndividual IRI="#Belgium"/>
+        <NamedIndividual IRI="#Belize"/>
+        <NamedIndividual IRI="#Benin"/>
+        <NamedIndividual IRI="#Bermuda"/>
+        <NamedIndividual IRI="#Bhutan"/>
+        <NamedIndividual IRI="#BirdIsland"/>
+        <NamedIndividual IRI="#BonaireSintEustatiusAndSaba"/>
+        <NamedIndividual IRI="#BosniaAndHerzegovina"/>
+        <NamedIndividual IRI="#Botswana"/>
+        <NamedIndividual IRI="#BouvetIsland"/>
+        <NamedIndividual IRI="#Brazil"/>
+        <NamedIndividual IRI="#BritishIndianOceanTerritory"/>
+        <NamedIndividual IRI="#BritishVirginIslands"/>
+        <NamedIndividual IRI="#BruneiDarussalam"/>
+        <NamedIndividual IRI="#Bulgaria"/>
+        <NamedIndividual IRI="#BurkinaFaso"/>
+        <NamedIndividual IRI="#Burundi"/>
+        <NamedIndividual IRI="#CaboVerde"/>
+        <NamedIndividual IRI="#Cambodia"/>
+        <NamedIndividual IRI="#Cameroon"/>
+        <NamedIndividual IRI="#Canada"/>
+        <NamedIndividual IRI="#CanaryIslands"/>
+        <NamedIndividual IRI="#CantonAndEnderburyIslands"/>
+        <NamedIndividual IRI="#CaymanIslands"/>
+        <NamedIndividual IRI="#CentralAfricanRepublic"/>
+        <NamedIndividual IRI="#Chad"/>
+        <NamedIndividual IRI="#ChagosArchipelago"/>
+        <NamedIndividual IRI="#ChannelIslands"/>
+        <NamedIndividual IRI="#Chile"/>
+        <NamedIndividual IRI="#China"/>
+        <NamedIndividual IRI="#ChinaHongKongSAR"/>
+        <NamedIndividual IRI="#ChinaMacaoSAR"/>
+        <NamedIndividual IRI="#ChristmasIsland"/>
+        <NamedIndividual IRI="#ClippertonIsland"/>
+        <NamedIndividual IRI="#Colombia"/>
+        <NamedIndividual IRI="#Comoros"/>
+        <NamedIndividual IRI="#Congo"/>
+        <NamedIndividual IRI="#CookIslands"/>
+        <NamedIndividual IRI="#CoralSeaIslandsTerritory"/>
+        <NamedIndividual IRI="#CostaRica"/>
+        <NamedIndividual IRI="#Croatia"/>
+        <NamedIndividual IRI="#Cuba"/>
+        <NamedIndividual IRI="#Curaçao"/>
+        <NamedIndividual IRI="#Cyprus"/>
+        <NamedIndividual IRI="#Czechia"/>
+        <NamedIndividual IRI="#DemocraticRepublicOfTheCongo"/>
+        <NamedIndividual IRI="#Denmark"/>
+        <NamedIndividual IRI="#DiegoGarcia"/>
+        <NamedIndividual IRI="#Djibouti"/>
+        <NamedIndividual IRI="#Dominica"/>
+        <NamedIndividual IRI="#DominicanRepublic"/>
+        <NamedIndividual IRI="#Ecuador"/>
+        <NamedIndividual IRI="#Egypt"/>
+        <NamedIndividual IRI="#ElSalvador"/>
+        <NamedIndividual IRI="#EquatorialGuinea"/>
+        <NamedIndividual IRI="#Eritrea"/>
+        <NamedIndividual IRI="#Estonia"/>
+        <NamedIndividual IRI="#Eswatini"/>
+        <NamedIndividual IRI="#Ethiopia"/>
+        <NamedIndividual IRI="#EuropaIsland"/>
+        <NamedIndividual IRI="#EuropeanUnion"/>
+        <NamedIndividual IRI="#FaroeIslands"/>
+        <NamedIndividual IRI="#Fiji"/>
+        <NamedIndividual IRI="#Finland"/>
+        <NamedIndividual IRI="#France"/>
+        <NamedIndividual IRI="#FrenchGuiana"/>
+        <NamedIndividual IRI="#FrenchPolynesia"/>
+        <NamedIndividual IRI="#FrenchSouthernTerritories"/>
+        <NamedIndividual IRI="#Gabon"/>
+        <NamedIndividual IRI="#Gambia"/>
+        <NamedIndividual IRI="#GazaStrip"/>
+        <NamedIndividual IRI="#Georgia"/>
+        <NamedIndividual IRI="#Germany"/>
+        <NamedIndividual IRI="#Ghana"/>
+        <NamedIndividual IRI="#Gibraltar"/>
+        <NamedIndividual IRI="#GloriosoIslands"/>
+        <NamedIndividual IRI="#GolanHeights"/>
+        <NamedIndividual IRI="#GreaterAntilles"/>
+        <NamedIndividual IRI="#Greece"/>
+        <NamedIndividual IRI="#Greenland"/>
+        <NamedIndividual IRI="#Grenada"/>
+        <NamedIndividual IRI="#Guadeloupe"/>
+        <NamedIndividual IRI="#Guam"/>
+        <NamedIndividual IRI="#Guatemala"/>
+        <NamedIndividual IRI="#Guernsey"/>
+        <NamedIndividual IRI="#Guinea"/>
+        <NamedIndividual IRI="#Guinea-Bissau"/>
+        <NamedIndividual IRI="#Guyana"/>
+        <NamedIndividual IRI="#Haiti"/>
+        <NamedIndividual IRI="#HeardAndMcDonaldIslands"/>
+        <NamedIndividual IRI="#HolySee"/>
+        <NamedIndividual IRI="#Honduras"/>
+        <NamedIndividual IRI="#HowlandIsland"/>
+        <NamedIndividual IRI="#Hungary"/>
+        <NamedIndividual IRI="#Iceland"/>
+        <NamedIndividual IRI="#IlemiTriangle"/>
+        <NamedIndividual IRI="#India"/>
+        <NamedIndividual IRI="#Indonesia"/>
+        <NamedIndividual IRI="#Iraq"/>
+        <NamedIndividual IRI="#Ireland"/>
+        <NamedIndividual IRI="#IsleOfMan"/>
+        <NamedIndividual IRI="#Israel"/>
+        <NamedIndividual IRI="#Italy"/>
+        <NamedIndividual IRI="#Jamaica"/>
+        <NamedIndividual IRI="#JammuAndKashmir"/>
+        <NamedIndividual IRI="#Japan"/>
+        <NamedIndividual IRI="#JarvisIsland"/>
+        <NamedIndividual IRI="#Jersey"/>
+        <NamedIndividual IRI="#JohnstonAtoll"/>
+        <NamedIndividual IRI="#JohnstonIsland"/>
+        <NamedIndividual IRI="#Jordan"/>
+        <NamedIndividual IRI="#JuanDeNovaIsland"/>
+        <NamedIndividual IRI="#Kazakhstan"/>
+        <NamedIndividual IRI="#Kenya"/>
+        <NamedIndividual IRI="#KerguelenIslands"/>
+        <NamedIndividual IRI="#KingmanReef"/>
+        <NamedIndividual IRI="#Kiribati"/>
+        <NamedIndividual IRI="#Kosovo"/>
+        <NamedIndividual IRI="#KurilIslands"/>
+        <NamedIndividual IRI="#Kuwait"/>
+        <NamedIndividual IRI="#Kyrgyzstan"/>
+        <NamedIndividual IRI="#Latvia"/>
+        <NamedIndividual IRI="#Lebanon"/>
+        <NamedIndividual IRI="#Lesotho"/>
+        <NamedIndividual IRI="#LesserAntilles"/>
+        <NamedIndividual IRI="#LiancourtRocks"/>
+        <NamedIndividual IRI="#Liberia"/>
+        <NamedIndividual IRI="#Libya"/>
+        <NamedIndividual IRI="#Liechtenstein"/>
+        <NamedIndividual IRI="#Lithuania"/>
+        <NamedIndividual IRI="#Luxembourg"/>
+        <NamedIndividual IRI="#MPAA_G"/>
+        <NamedIndividual IRI="#MPAA_NC-17"/>
+        <NamedIndividual IRI="#MPAA_PG"/>
+        <NamedIndividual IRI="#MPAA_PG-13"/>
+        <NamedIndividual IRI="#MPAA_R"/>
+        <NamedIndividual IRI="#Madagascar"/>
+        <NamedIndividual IRI="#MadeiraIslands"/>
+        <NamedIndividual IRI="#Malawi"/>
+        <NamedIndividual IRI="#Malaysia"/>
+        <NamedIndividual IRI="#Maldives"/>
+        <NamedIndividual IRI="#Mali"/>
+        <NamedIndividual IRI="#Malta"/>
+        <NamedIndividual IRI="#MarionIsland"/>
+        <NamedIndividual IRI="#MarshallIslands"/>
+        <NamedIndividual IRI="#Martinique"/>
+        <NamedIndividual IRI="#Mauritania"/>
+        <NamedIndividual IRI="#Mauritius"/>
+        <NamedIndividual IRI="#Mayotte"/>
+        <NamedIndividual IRI="#Mexico"/>
+        <NamedIndividual IRI="#MidwayIslands"/>
+        <NamedIndividual IRI="#Monaco"/>
+        <NamedIndividual IRI="#Mongolia"/>
+        <NamedIndividual IRI="#Montenegro"/>
+        <NamedIndividual IRI="#Montserrat"/>
+        <NamedIndividual IRI="#Morocco"/>
+        <NamedIndividual IRI="#Mozambique"/>
+        <NamedIndividual IRI="#Myanmar"/>
+        <NamedIndividual IRI="#Nagorno-KarabakhRegionOfAzerbaijan"/>
+        <NamedIndividual IRI="#Namibia"/>
+        <NamedIndividual IRI="#Nauru"/>
+        <NamedIndividual IRI="#NavassaIsland"/>
+        <NamedIndividual IRI="#Nepal"/>
+        <NamedIndividual IRI="#Netherlands"/>
+        <NamedIndividual IRI="#NeutralZone"/>
+        <NamedIndividual IRI="#NewCaledonia"/>
+        <NamedIndividual IRI="#NewZealand"/>
+        <NamedIndividual IRI="#Nicaragua"/>
+        <NamedIndividual IRI="#Niger"/>
+        <NamedIndividual IRI="#Nigeria"/>
+        <NamedIndividual IRI="#Niue"/>
+        <NamedIndividual IRI="#NorfolkIsland"/>
+        <NamedIndividual IRI="#NorthMacedonia"/>
+        <NamedIndividual IRI="#NorthernMarianaIslands"/>
+        <NamedIndividual IRI="#Norway"/>
+        <NamedIndividual IRI="#OccupiedPalestinianTerritory"/>
+        <NamedIndividual IRI="#Oman"/>
+        <NamedIndividual IRI="#Pakistan"/>
+        <NamedIndividual IRI="#Palau"/>
+        <NamedIndividual IRI="#Palestine"/>
+        <NamedIndividual IRI="#PalmyraAtoll"/>
+        <NamedIndividual IRI="#Panama"/>
+        <NamedIndividual IRI="#PanamaFormerCanalZone"/>
+        <NamedIndividual IRI="#PapuaNewGuinea"/>
+        <NamedIndividual IRI="#ParacelIslands"/>
+        <NamedIndividual IRI="#Paraguay"/>
+        <NamedIndividual IRI="#PersianGulf"/>
+        <NamedIndividual IRI="#Peru"/>
+        <NamedIndividual IRI="#Philippines"/>
+        <NamedIndividual IRI="#Pitcairn"/>
+        <NamedIndividual IRI="#Poland"/>
+        <NamedIndividual IRI="#Portugal"/>
+        <NamedIndividual IRI="#PrinceEdwardIsland"/>
+        <NamedIndividual IRI="#PuertoRico"/>
+        <NamedIndividual IRI="#Qatar"/>
+        <NamedIndividual IRI="#RepublicOfKorea"/>
+        <NamedIndividual IRI="#RepublicOfMoldova"/>
+        <NamedIndividual IRI="#Romania"/>
+        <NamedIndividual IRI="#RossDependency"/>
+        <NamedIndividual IRI="#RussianFederation"/>
+        <NamedIndividual IRI="#Rwanda"/>
+        <NamedIndividual IRI="#Réunion"/>
+        <NamedIndividual IRI="#SaintBarthélemy"/>
+        <NamedIndividual IRI="#SaintKittsAndNevis"/>
+        <NamedIndividual IRI="#SaintLucia"/>
+        <NamedIndividual IRI="#SaintPierreAndMiquelon"/>
+        <NamedIndividual IRI="#SaintVincentAndTheGrenadines"/>
+        <NamedIndividual IRI="#Samoa"/>
+        <NamedIndividual IRI="#SanMarino"/>
+        <NamedIndividual IRI="#SaoTomeAndPrincipe"/>
+        <NamedIndividual IRI="#SaudiArabia"/>
+        <NamedIndividual IRI="#ScarboroughReef"/>
+        <NamedIndividual IRI="#Senegal"/>
+        <NamedIndividual IRI="#SenkakuIslands"/>
+        <NamedIndividual IRI="#Serbia"/>
+        <NamedIndividual IRI="#Seychelles"/>
+        <NamedIndividual IRI="#SierraLeone"/>
+        <NamedIndividual IRI="#Singapore"/>
+        <NamedIndividual IRI="#Slovakia"/>
+        <NamedIndividual IRI="#Slovenia"/>
+        <NamedIndividual IRI="#SolomonIslands"/>
+        <NamedIndividual IRI="#Somalia"/>
+        <NamedIndividual IRI="#SouthAfrica"/>
+        <NamedIndividual IRI="#SouthGeorgiaAndTheSouthSandwichIslands"/>
+        <NamedIndividual IRI="#SouthSudan"/>
+        <NamedIndividual IRI="#Spain"/>
+        <NamedIndividual IRI="#SpratlyIslands"/>
+        <NamedIndividual IRI="#SriLanka"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#Sudan"/>
+        <NamedIndividual IRI="#Suriname"/>
+        <NamedIndividual IRI="#SvalbardAndJanMayenIslands"/>
+        <NamedIndividual IRI="#Sweden"/>
+        <NamedIndividual IRI="#Switzerland"/>
+        <NamedIndividual IRI="#SyrianArabRepublic"/>
+        <NamedIndividual IRI="#TaiwanProvinceOfChina"/>
+        <NamedIndividual IRI="#Tajikistan"/>
+        <NamedIndividual IRI="#Thailand"/>
+        <NamedIndividual IRI="#Timor-Leste"/>
+        <NamedIndividual IRI="#Togo"/>
+        <NamedIndividual IRI="#Tokelau"/>
+        <NamedIndividual IRI="#Tonga"/>
+        <NamedIndividual IRI="#TrinidadAndTobago"/>
+        <NamedIndividual IRI="#TromelinIsland"/>
+        <NamedIndividual IRI="#TrustTerritoryOfThePacificIslands"/>
+        <NamedIndividual IRI="#Tunisia"/>
+        <NamedIndividual IRI="#Turkey"/>
+        <NamedIndividual IRI="#Turkmenistan"/>
+        <NamedIndividual IRI="#TurksAndCaicosIslands"/>
+        <NamedIndividual IRI="#Tuvalu"/>
+        <NamedIndividual IRI="#Uganda"/>
+        <NamedIndividual IRI="#Ukraine"/>
+        <NamedIndividual IRI="#UnitedArabEmirates"/>
+        <NamedIndividual IRI="#UnitedKingdomOfGreatBritainAndNorthernIreland"/>
+        <NamedIndividual IRI="#UnitedRepublicOfTanzania"/>
+        <NamedIndividual IRI="#UnitedRepublicOfTanzaniaZanzibar"/>
+        <NamedIndividual IRI="#UnitedStatesMinorOutlyingIslands"/>
+        <NamedIndividual IRI="#UnitedStatesOfAmerica"/>
+        <NamedIndividual IRI="#UnitedStatesVirginIslands"/>
+        <NamedIndividual IRI="#Uruguay"/>
+        <NamedIndividual IRI="#Uzbekistan"/>
+        <NamedIndividual IRI="#Vanuatu"/>
+        <NamedIndividual IRI="#VietNam"/>
+        <NamedIndividual IRI="#WakeIsland"/>
+        <NamedIndividual IRI="#WallisAndFutunaIslands"/>
+        <NamedIndividual IRI="#WestBank"/>
+        <NamedIndividual IRI="#WestPapua"/>
+        <NamedIndividual IRI="#WesternSahara"/>
+        <NamedIndividual IRI="#Yemen"/>
+        <NamedIndividual IRI="#Zambia"/>
+        <NamedIndividual IRI="#Zimbabwe"/>
+        <NamedIndividual IRI="#comedy"/>
+        <NamedIndividual IRI="#crime"/>
+        <NamedIndividual IRI="#drama"/>
+        <NamedIndividual IRI="#romance"/>
+        <NamedIndividual IRI="#scienceFiction"/>
+        <NamedIndividual IRI="#ÅlandIslands"/>
+        <NamedIndividual IRI="#Bolivia(PlurinationalStateof)"/>
+        <NamedIndividual IRI="#Cocos(Keeling)Islands"/>
+        <NamedIndividual IRI="#Côted&apos;Ivoire"/>
+        <NamedIndividual IRI="#DemocraticPeople&apos;sRepublicOfKorea"/>
+        <NamedIndividual IRI="#FalklandIslands(Malvinas)"/>
+        <NamedIndividual IRI="#Hala&apos;ibTriangle"/>
+        <NamedIndividual IRI="#Iran(IslamicRepublicof)"/>
+        <NamedIndividual IRI="#LaoPeople&apos;sDemocraticRepublic"/>
+        <NamedIndividual IRI="#Ma&apos;tanal-Sarra"/>
+        <NamedIndividual IRI="#Micronesia(FederatedStatesof)"/>
+        <NamedIndividual IRI="#Saint-Martin(Frenchpart)"/>
+        <NamedIndividual IRI="#SintMaarten(Dutchpart)"/>
+        <NamedIndividual IRI="#Venezuela(BolivarianRepublicof)"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#Adam_Driver"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#Anthony_Daniels"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#Carrie_Fisher"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#Daisy_Ridley"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#Domhnall_Gleeson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#John_Boyega"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#Mark_Hamill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#Naomi_Ackie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#Oscar_Isaac"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#Richard_E._Grant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#Lupita_Nyong&apos;o"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCountry"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#UnitedStatesOfAmerica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#J_J_Abrams"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <NamedIndividual IRI="#scienceFiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard"/>
+        <NamedIndividual IRI="#drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard"/>
+        <NamedIndividual IRI="#scienceFiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard_(season_1)"/>
+        <NamedIndividual IRI="#Alison_Pill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard_(season_1)"/>
+        <NamedIndividual IRI="#Harry_Treadaway"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard_(season_1)"/>
+        <NamedIndividual IRI="#Michelle_Hurd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard_(season_1)"/>
+        <NamedIndividual IRI="#Patrick_Stewart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard_(season_1)"/>
+        <NamedIndividual IRI="#Santiago_Cabrera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard_(season_1)"/>
+        <NamedIndividual IRI="#Akiva_Goldsman"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <Literal>Star Wars: The Rise of Skywalker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasReleaseYear"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRunningTime"/>
+        <NamedIndividual IRI="#Star_Wars_The_Rise_of_Skywalker"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">142</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard"/>
+        <Literal>Star Trek: Picard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasReleaseYear"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRunningTime"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasReleaseYear"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard_(season_1)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRunningTime"/>
+        <NamedIndividual IRI="#Star_Trek:_Picard_(season_1)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasActor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCountry"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDirector"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGenre"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasActor"/>
+        <ObjectUnionOf>
+            <Class IRI="#Film"/>
+            <Class IRI="#TVSeries"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCountry"/>
+        <ObjectUnionOf>
+            <Class IRI="#Film"/>
+            <Class IRI="#TVSeries"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDirector"/>
+        <ObjectUnionOf>
+            <Class IRI="#Film"/>
+            <Class IRI="#TVSeries"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEpisode"/>
+        <Class IRI="#TVSeries"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenre"/>
+        <ObjectUnionOf>
+            <Class IRI="#Film"/>
+            <Class IRI="#TVSeries"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSeason"/>
+        <Class IRI="#TVSeries"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasActor"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCountry"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDirector"/>
+        <Class IRI="#Director"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEpisode"/>
+        <Class IRI="#Episode"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasEndDate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasReleaseYear"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasRunningTime"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasStartDate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEndDate"/>
+        <ObjectUnionOf>
+            <Class IRI="#Film"/>
+            <Class IRI="#TVSeries"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <ObjectUnionOf>
+            <Class IRI="#Film"/>
+            <Class IRI="#TVSeries"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasReleaseYear"/>
+        <ObjectUnionOf>
+            <Class IRI="#Film"/>
+            <Class IRI="#Season"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRunningTime"/>
+        <ObjectUnionOf>
+            <Class IRI="#Film"/>
+            <Class IRI="#Season"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasStartDate"/>
+        <ObjectUnionOf>
+            <Class IRI="#Film"/>
+            <Class IRI="#TVSeries"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEndDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasReleaseYear"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRunningTime"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasStartDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRunningTime</IRI>
+        <Literal>For movies, it represents the runtime of the movies; For Tv Series, it represents the length of one episode in one specific season.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
